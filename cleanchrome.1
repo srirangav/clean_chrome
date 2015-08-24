@@ -1,0 +1,36 @@
+.\" $Id: cleanchrome.1 1198 2012-04-02 05:16:17Z ranga $
+.TH cleanchrome 1
+.SH NAME
+cleanchrome - a utility for deleting old versions of Google Chrome
+.SH SYNOPSIS
+cleanchrome [-vflh] [-d dir]
+.SH DESCRIPTION
+cleanchrome is a utility for deleting old versions of Google
+Chrome on MacOS X.  When Chrome is upgraded, at least the previous
+version appears to be retained.  This utility can be used to delete
+such older versions of Chrome.
+
+cleanchrome is similar to OldChromeRemover for Windows by Shane
+Gowland:
+
+http://shanegowland.com/software/2012/oldchromeremover-module/
+.SH OPTIONS
+.TP
+.B \-d [dir]
+Look for Chrome in the specified directory.
+.TP
+.B \-f
+Force deletion of old versions of Chrome.
+.TP
+.B \-h
+Prints a help message
+.TP
+.B \-l
+List old versions of Chrome, if any.
+.TP
+.B \-v
+Verbose mode; prints out debugging information
+.SH PLATFORMS
+cleanchrome has been tested on MacOS X 10.7.
+.SH HISTORY
+The cleanchrome command was written by Sriranga Veeraraghavan <ranga@calalum.org>.
