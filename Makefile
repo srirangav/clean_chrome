@@ -4,7 +4,7 @@
 PGM_NAME = cleanchrome
 PGM_REL  = 0.1.5
 WORKDIR = work
-FILES = cleanchrome.pl cleanchrome.1 Makefile README.txt
+FILES = cleanchrome.pl cleanchrome.1 Makefile README.txt LICENSE.txt
 
 all:
 	@echo Nothing to do
